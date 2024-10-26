@@ -28,7 +28,9 @@
         >
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="btn subscribe-btn" href="#" role="button">Subscribe</a>
+              <a class="btn subscribe-btn" href="#subscribe" role="button"
+                >Subscribe</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
@@ -199,15 +201,16 @@
         </div>
       </section>
 
-      <section aria-label="Subscribe example" class="text-center bg-light py-5">
+      <section
+        class="text-center bg-light py-5"
+        id="subscribe"
+        aria-label="Subscribe"
+      >
         <h2>Stay in the Loop</h2>
         <p class="lead">
           Subscribe to our newsletter for the latest in lifestyle tips.
         </p>
-        <form
-          class="d-flex justify-content-center"
-          onsubmit="event.preventDefault()"
-        >
+        <form class="d-flex justify-content-center" action="#">
           <input
             type="email"
             id="email"
