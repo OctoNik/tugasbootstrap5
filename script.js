@@ -10,3 +10,11 @@ window.onscroll = function () {
     stackedNavbar.classList.remove("scrolled");
   }
 };
+
+document
+  .getElementById("contactForm")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+    document.getElementById("notification").style.display = "block";
+    this.reset();
+  });

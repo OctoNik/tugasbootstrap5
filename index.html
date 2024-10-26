@@ -16,7 +16,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -33,8 +32,8 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
-                ><i class="bi bi-person"></i> Sign In
-              </a>
+                ><i class="bi bi-person"></i> Sign In</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
@@ -60,66 +59,142 @@
       </div>
     </nav>
 
+    <div
+      id="carousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="5000"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://marvel-b1-cdn.bc0a.com/f00000000276379/www.life.edu/wp-content/uploads/2024/01/LifeU-Aug-2021-05540-1000.jpg"
+            class="d-block w-100"
+            alt="Slide 1"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.freepik.com/premium-photo/fashionable-city-dweller-delights-nourishing-smoothie-amid-urban-hustle-concept-fashion-city-life-healthy-eating-urban-wellness-lifestyle_864588-39542.jpg"
+            class="d-block w-100"
+            alt="Slide 2"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://pearlproductioncdn-angdc5fwcje2hzgs.z01.azurefd.net/drupal-files/2023-08/fashion-business-web_0.webp"
+            class="d-block w-100"
+            alt="Slide 3"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
     <main class="container my-4">
       <section>
-        <hgroup>
-          <h2>Welcome to the Lifestyle Hub</h2>
-          <h3>Explore trends, wellness, and living your best life</h3>
-        </hgroup>
-        <p>
-          Lifestyle is all about finding balance, embracing health, and living
-          in the moment. Whether you're into fitness, mindfulness, or just
-          looking to elevate your daily routines, you've come to the right
-          place.
+        <h2 class="text-center title">Welcome</h2>
+        <p class="text-center">
+          Dive into a world of wellness where health meets happiness. Explore
+          practical tips, insightful articles, and transformative practices
+          designed to nurture your mind, body, and soul. From nutrition to
+          mindfulness, we’re here to guide you on your journey to holistic
+          well-being.
         </p>
-        <figure>
-          <img
-            src="https://images.unsplash.com/photo-1507919909716-c8262e491cde?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Wellness lifestyle image from Unsplash"
-            class="img-fluid"
-          />
-          <figcaption>
-            <a
-              href="https://unsplash.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Photo from Unsplash</a
-            >
-          </figcaption>
-        </figure>
-        <h3>Latest in Wellness</h3>
-        <p>
-          Discover the latest trends in wellness, from meditation techniques to
-          fitness tips that keep you grounded and healthy.
-        </p>
-        <h3>Explore Fashion & Trends</h3>
-        <p>
-          Stay ahead in fashion with insights into what's trending, sustainable
-          fashion tips, and more.
-        </p>
+        <div class="d-flex justify-content-center my-4">
+          <iframe
+            width="315"
+            height="560"
+            src="https://www.youtube.com/embed/nLL_-FN9SEk"
+            title="How to prioritize wellness when life feels chaotic? #shorts #youtubeshorts #wellness #life"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="container wishlist-section">
+        <h3 class="text-center title">Top Editors’ Fall Fashion Wishlists</h3>
+        <div class="row justify-content-center">
+          <div class="col-md-4 text-center wishlist-item">
+            <img
+              src="https://assets.vogue.com/photos/66db4c4b1c489d9460e6c181/4:3/w_960,c_limit/EW_F2024_CM-01.png"
+              class="img-fluid mb-2"
+              alt="Chloe Malle's Edit"
+            />
+            <p>Shop Chloe Malle’s Edit</p>
+          </div>
+          <div class="col-md-4 text-center wishlist-item">
+            <img
+              src="https://assets.vogue.com/photos/66db4c445a733ac774d6cf44/4:3/w_960,c_limit/EW_F2024_MM-02.png"
+              class="img-fluid mb-2"
+              alt="Mai Morsch's Edit"
+            />
+            <p>Shop Mai Morsch’s Edit</p>
+          </div>
+          <div class="col-md-4 text-center wishlist-item">
+            <img
+              src="https://assets.vogue.com/photos/66db4c6097c77bee644e3bb4/4:3/w_960,c_limit/EW_F2024_WL-02.png"
+              class="img-fluid mb-2"
+              alt="Willow Lindley's Edit"
+            />
+            <p>Shop Willow Lindley’s Edit</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3 class="text-center title">Celebrity Style</h3>
+        <div class="row justify-content-center">
+          <article class="col-md-4 card hover-shadow mx-2">
+            <img
+              src="https://assets.vogue.com/photos/671bff23505ecd62292a04b9/4:3/w_1920,c_limit/20241024_Celtics_Wizards_Arrivals_Giarla_941.jpg"
+              alt="Fashion Trends"
+              class="img-fluid mb-2"
+            />
+            <p>Kyle Kuzma is Retiring His Tunnel Looks</p>
+          </article>
+          <article class="col-md-4 card hover-shadow mx-2">
+            <img
+              src="https://assets.vogue.com/photos/671ba65e6057ecc09d753088/4:3/w_1920,c_limit/2180898533"
+              alt="Wellness Tips"
+              class="img-fluid mb-2"
+            />
+            <p>Lana Del Rey Embraces Bridal White</p>
+          </article>
+          <article class="col-md-4 card hover-shadow mx-2">
+            <img
+              src="https://assets.vogue.com/photos/671bd1f7b8cd8f41c938c369/4:3/w_1920,c_limit/BGUS_3069888_003.jpg"
+              alt="Styling Essentials"
+              class="img-fluid mb-2"
+            />
+            <p>
+              Sofia Richie Grainge Adds a Statement Shoe to Her Stealth Wealth
+              Uniform
+            </p>
+          </article>
+        </div>
       </section>
     </main>
-
-    <section class="container my-4" aria-label="Subscribe example">
-      <article>
-        <hgroup>
-          <h2>Join Our Community</h2>
-          <h3>Subscribe for the latest lifestyle updates</h3>
-        </hgroup>
-        <form class="d-flex" onsubmit="event.preventDefault()">
-          <input
-            type="email"
-            id="email"
-            name="email"
-            class="form-control me-2"
-            placeholder="Email"
-            aria-label="Email"
-            required
-          />
-          <button type="submit" class="btn subscribe-btn">Subscribe</button>
-        </form>
-      </article>
-    </section>
 
     <footer class="footer">
       <div class="footer-container">
